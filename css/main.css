@@ -302,7 +302,7 @@ nav ul li a {
 
     .text h1,
     .text p{
-        font-size:1.4rem;
+        font-size:1.6rem;
     }
 
     .nav-button ul li a {
@@ -311,7 +311,7 @@ nav ul li a {
 
     @keyframes typing {
         from{width: 0;}
-        to{width: 20ch;}
+        to{width: 22ch;}
     }
     
     @keyframes blinkTextCursor {
