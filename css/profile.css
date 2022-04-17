@@ -380,44 +380,10 @@ nav ul li a {
 }
 
 @media (max-width: 480px) {
-  .main-content {
-    height: 50vh;
-  }
+    .main-content {
+        height: 60vh;
+    }
 
-  .main-content img {
-    margin-top: 100px;
-    margin-bottom: 60px;
-    height: 160px;
-    width: auto;
-  }
-
-  .nav-button {
-    margin-top: 110px;
-  }
-
-  .nav-button ul li a {
-    font-size: 0.8rem;
-  }
-
-  .selected {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-
-  .my-name {
-      top: 38%;
-  }
-
-  .my-age {
-      top: 75%;
-  }
-
-  .my-country {
-      top: 95%;
-  }
-
-}
-
-@media (max-width: 380px) {
     .main-content img {
       margin-bottom: 40px;
     }
@@ -427,15 +393,15 @@ nav ul li a {
     }
   
     .my-name {
-        top: 38%;
+        top: 25%;
     }
   
     .my-age {
-        top: 75%;
+        top: 50%;
     }
   
     .my-country {
-        top: 100%;
+        top: 70%;
     }
   
   }
