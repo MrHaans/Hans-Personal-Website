@@ -416,3 +416,133 @@ nav ul li a {
   }
 
 }
+
+@media (max-width: 380px) {
+    .main-content img {
+      margin-bottom: 40px;
+    }
+
+    .selected {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  
+    .my-name {
+        top: 38%;
+    }
+  
+    .my-age {
+        top: 75%;
+    }
+  
+    .my-country {
+        top: 100%;
+    }
+  
+  }
+
+  @media (max-width: 380px) and (max-height: 667px) {
+    .main-content {
+        height: 45vh;
+      }
+
+      .main-content img {
+          margin-top: 50px;
+        margin-bottom: 40px;
+      }
+
+      .my-name {
+          top: 70%;
+      }
+
+      .my-age {
+          top: 140%;
+      }
+
+      .my-country {
+          top: 180%;
+      }
+  }
+
+  @media (max-width: 414px) and (max-height: 896px) {
+    .main-content {
+        height: 50vh;
+      }
+
+      .my-name {
+          top: 30%;
+      }
+
+      .my-age {
+          top: 65%;
+      }
+
+      .my-country{
+          top: 85%;
+      }
+  }
+
+  @media (max-width: 390px) and (max-height: 844px) {
+      .my-name {
+          top: 35%;
+      }
+
+      .my-age {
+          top: 70%;
+      }
+
+      .my-country {
+          top: 90%;
+      }
+  }
+
+  @media (max-width: 360px) and (max-height: 740px) {
+
+    .main-content img {
+        margin-top: 60px;
+    }
+  }
+
+  @media (max-width: 412px) and (max-height: 915px) {
+    .my-name {
+        top: 30%;
+    }
+
+    .my-age {
+        top: 60%;
+    }
+
+    .my-country {
+        top: 80%;
+    }
+  }
+
+  @media (max-width: 280px) and (max-height: 653px) {
+      .main-content {
+          height: 45vh;
+      }
+
+      .main-content img {
+          height: 140px;
+      }
+
+      .text h1 {
+          font-size: 1.6rem;
+      }
+
+      .my-name {
+          font-size: 1.6rem;
+          top: 45%;
+      }
+
+      .my-age {
+          font-size: 0.8rem;
+          top: 105%;
+          letter-spacing: 4px;
+      }
+
+      .my-country {
+          font-size: 0.75rem;
+          top: 140%;
+          letter-spacing: 3px;
+      }
+  }
