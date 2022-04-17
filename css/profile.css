@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@200;400;500;700&display=swap");
+
+/* RESET CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: rgb(242, 170, 76);
+  background-color: #101820;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 250px;
+}
+
+/* NAVBAR SECTION */
+nav {
+  margin-top: 132px;
+}
+
+/* RESET NAVBAR */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* RESET END */
+
+nav ul {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 26px;
+}
+
+nav ul li {
+  width: 100px;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  color: rgb(242, 170, 76);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.thin {
+  color: rgba(242, 170, 76, 0.25);
+}
+
+.regular {
+  color: rgba(242, 170, 76, 0.5);
+}
+
+.medium {
+  color: rgba(242, 170, 76, 1);
+}
+
+.underline:hover {
+  border-bottom: 2px solid white;
+}
+
+.u-active {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+/* NAVBAR END */
+
+/* MAIN CONTENT */
+.main-content {
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+
+.main-content img {
+  margin-left: 80px;
+  height: 290px;
+  width: auto;
+}
+
+.main-content h1 {
+  font-size: 3.25rem;
+  font-family: "Poppins", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* .main-content p {
+    margin-top: -25px;
+    font-size: 3.25rem;
+    font-family: 'Poppins', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+} */
+
+.text {
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+
+.my-name {
+  width: 100%;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  top: 43%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+
+.my-age {
+  width: 100%;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 6.6px;
+  opacity: 75%;
+  top: 70%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+
+.my-country {
+  width: 100%;
+  position: absolute;
+  font-family: "Architects Daughter", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 8.3px;
+  opacity: 50%;
+  top: 88%;
+  left: 0%;
+}
+
+/* HIDDEN NAV BUTTON */
+.nav-button {
+  display: none;
+}
+/* END HIDDEN NAV BUTTON */
+
+@media (max-width: 1380px) {
+  .container {
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .container {
+    margin: 0 50px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .container {
+    margin: 0px;
+  }
+
+  nav ul {
+    margin-left: 50px;
+  }
+
+  .main-content img {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .container {
+    margin: 0px;
+  }
+
+  nav ul {
+    margin-left: 10px;
+  }
+
+  .main-content img {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 980px) {
+  nav {
+    display: none;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .main-content .text {
+    text-align: center;
+  }
+
+  .main-content img {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: auto;
+  }
+
+  .nav-button {
+    display: block;
+  }
+
+  .nav-button ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+  }
+
+  .nav-button ul li {
+    width: 160px;
+    height: 50px;
+  }
+
+  .nav-button ul li a {
+    position: relative;
+    display: block;
+    height: 100%;
+    color: rgb(242, 170, 76);
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid rgb(242, 170, 76);
+  }
+
+  .nav-button .button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text h1 {
+    margin-top: -25px;
+  }
+
+  .my-name {
+    top: 30%;
+  }
+
+  .my-age {
+    top: 60%;
+  }
+
+  .my-country {
+    top: 80%;
+  }
+
+  .selected {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 700px) {
+  .main-content img {
+    margin-top: 120px;
+  }
+
+  .text h1,
+  .text p {
+    font-size: 2.8rem;
+  }
+
+  .nav-button ul {
+    gap: 30px;
+  }
+
+  .nav-button ul li a {
+    font-size: 1rem;
+  }
+
+  .main-content img {
+    height: 170px;
+  }
+
+  .my-name {
+    font-size: 2.8rem;
+    top: 30%;
+  }
+
+  .my-age {
+    font-size: 1.45rem;
+  }
+
+  .my-country {
+    font-size: 0.88rem;
+  }
+
+  .selected {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 550px) {
+  .main-content {
+    height: 60vh;
+  }
+
+  .text h1,
+  .text p {
+    font-size: 2rem;
+  }
+
+  .nav-button {
+    height: 30vh;
+  }
+
+  .nav-button ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 5vh 0;
+  }
+
+  .nav-button ul li {
+    width: 130px;
+    height: 40px;
+  }
+
+  .my-name {
+    font-size: 2rem;
+    top: 20%;
+  }
+
+  .my-age {
+    font-size: 1rem;
+    top: 40%;
+    letter-spacing: 5px;
+  }
+
+  .my-country {
+    font-size: 0.88rem;
+    letter-spacing: 4px;
+    top: 55%;
+  }
+
+  .main-content img {
+    height: 170px;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    height: 50vh;
+  }
+
+  .main-content img {
+    margin-top: 100px;
+    margin-bottom: 60px;
+    height: 160px;
+    width: auto;
+  }
+
+  .nav-button {
+    margin-top: 110px;
+  }
+
+  .nav-button ul li a {
+    font-size: 0.8rem;
+  }
+
+  .selected {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .my-name {
+      top: 30%;
+  }
+
+  .my-age {
+      top: 65%;
+  }
+
+  .my-country {
+      top: 85%;
+  }
+
+}
