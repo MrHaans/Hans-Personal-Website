@@ -358,19 +358,19 @@ nav ul li a {
 
   .my-name {
     font-size: 2rem;
-    top: 20%;
+    top: 22%;
   }
 
   .my-age {
     font-size: 1rem;
-    top: 40%;
+    top: 45%;
     letter-spacing: 5px;
   }
 
   .my-country {
     font-size: 0.88rem;
     letter-spacing: 4px;
-    top: 55%;
+    top: 60%;
   }
 
   .main-content img {
@@ -404,15 +404,15 @@ nav ul li a {
   }
 
   .my-name {
-      top: 30%;
+      top: 38%;
   }
 
   .my-age {
-      top: 65%;
+      top: 75%;
   }
 
   .my-country {
-      top: 85%;
+      top: 95%;
   }
 
 }
